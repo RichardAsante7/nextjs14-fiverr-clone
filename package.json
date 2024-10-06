@@ -1,11 +1,28 @@
 {
   "name": "nextjs14-fiverr-clone",
-  "version": "1.0.0",
-  "description": "nextjs-fiverr-clone",
-  "main": "index.js",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
-  "author": "Richard Asante",
-  "license": "MIT"
+  "dependencies": {
+    "@clerk/clerk-react": "^5.11.0",
+    "convex": "^1.16.3",
+    "next": "14.2.14",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.14",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
 }
